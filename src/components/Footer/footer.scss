@@ -1,0 +1,53 @@
+/******** SITE FOOTER STYLE START **********/
+.site-footer {
+  background-color: #2a2a2a;
+
+  &__wrapper {
+    padding: 24px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__com {
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: "liga" off;
+    color: #ffffff;
+  }
+
+  &__end {
+    display: flex;
+  }
+
+  &__phone {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: "liga" off;
+    color: #ffffff;
+&:hover{
+    color:#ffffff;
+}
+  }
+
+&__social{
+    display: flex;
+    margin-left: 16px;
+}
+
+  &__social-icon {
+    margin-right: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+    background-color: #3f3f3f;
+    border-radius: 50%;
+  }
+}
+/******** SITE FOOTER STYLE END **********/
